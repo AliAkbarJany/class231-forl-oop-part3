@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+
+
+
+<!--    Even Numbers===========================-->
+
+    <EditText
+        android:id="@+id/editInitialValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Initial Value"
+        android:inputType="number"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:id="@+id/editTargetedValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Targeted Value"
+        android:inputType="number"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/buttonEvenOdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to see Even / Odd"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textEvenOdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#B2DFDB"
+        />
+
+<!--    =================================================-->
+
+<!--     Leap Year ============================================       -->
+
+            <EditText
+                android:id="@+id/editInitialLeap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Initial Value"
+                android:inputType="number"
+                android:layout_margin="20dp"
+                />
+            <EditText
+                android:id="@+id/editTargetedLeap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Targeted Value"
+                android:inputType="number"
+                android:layout_margin="20dp"
+                />
+
+            <Button
+                android:id="@+id/buttonLeapYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leap Yaer"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                />
+
+            <TextView
+                android:id="@+id/textLeapYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#B2DFDB"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
